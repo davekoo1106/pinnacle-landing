@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Pinnacle Realty</title>
+</head>
+<body>
+    <header class="hdr">
+        <a href="index.html"><img class="logo" src="images/pinnacle-logo.svg" alt="pinnacle-logo"></a>
+        <nav class="gn">
+            <ul class="gn-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#popular">Popular Residences</a></li>
+                <li><a href="#our-value">Our Value</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><button>Contact</button></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <a class="icon" href="#"><span></span></a>
+        </div>
+    </header>
+    <main class="banner">
+        <div class="container">
+            <div class="content-hdr">
+                <h1>Find A Home <br> That Suits You.</h1>
+                <h2>We provide the best service for those looking <br> for their next dream home</h2>
+            </div>
+            <img src="images/bg-img.png">
+            <div class="credility-box">
+                <div class="credibility">
+                    <h3>1200 <span>+</span></h3>    
+                    <p>Premium Product</p>
+                </div>
+                <div class="credibility">
+                    <h3>4500 <span>+</span></h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="credibility">
+                    <h3>200 <span>+</span></h3>
+                    <p>Awards Winning</p>
+                </div> 
+            </div>
+            <button>View More</button>
+        </div>
+    </main>
+    <section id="search-container">
+        <div class="search-bar">
+            <div class="input-title">
+                <h1>Search for your next home</h1>
+            </div>
+            <div class="input">
+                <label for="location-select" class="select-title">Choose location:</label>
+                    <select name="location" id="location-select" class="custom-select">
+                        <option value="">- Select option -</option>
+                        <option value="vancouver">Vancouver</option>
+                        <option value="los-angeles">Los Angeles</option>
+                        <option value="miami">Miami</option>
+                    </select>
+                <div>
+                    <button class="search">Search Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="title" id="popular">Our Popular Residences</h1>
+        <div class="box-container">
+            <div class="property"  data-location="vancouver">
+                <img src="images/image-1.png">
+                <div class="location">   
+                    <p><img class="icon" src="images/location-pin.svg">8375 Vale Drive, West Vancouver</p>
+                </div>
+                <div class="details">
+                    <p><img class="icon" src="images/bed.svg">6 Bed</p>
+                    <p><img class="icon" src="images/bathtub.svg">6 Bath</p>
+                    <p><img class="icon" src="images/ruler.svg">12,000sq ft</p>
+                </div>
+                <div class="details">
+                    <h2>$4,000,000</h2>
+                    <button>View</button>
+                </div>
+            </div>
+            <div class="property" data-location="miami">
+                <img src="images/image-2.png">
+                <div class="location">
+                    <p><img class="icon" src="images/location-pin.svg">470 E. Taylor Drive, Miami</p>
+                </div>
+                <div class="details">
+                    <p><img class="icon" src="images/bed.svg">4 Bed</p>
+                    <p><img class="icon" src="images/bathtub.svg">4 bath</p>
+                    <p><img class="icon" src="images/ruler.svg">10,000sq ft</p>
+                </div>
+                <div class="details">
+                    <h2>$9,000,000</h2>
+                    <button>View</button>
+                </div>
+            </div>
+            <div class="property" data-location="los-angeles">
+                <img src="images/image-3.png">
+                <div class="location">
+                    <p><img class="icon" src="images/location-pin.svg">520 Annabelle St, California</p>
+                </div>
+                <div class="details">
+                    <p><img class="icon" src="images/bed.svg">7 Bed</p>
+                    <p><img class="icon" src="images/bathtub.svg">7 bath</p>
+                    <p><img class="icon" src="images/ruler.svg">20,000sq ft</p>
+                </div>
+                <div class="details">
+                    <h2>$5,600,000</h2>
+                    <button>View</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="accordian-container">
+            <div class="accordian-img">
+                <img src="images/value-img.png">
+            </div>
+            <div>
+                <div id="our-value" class="value-title">
+                    <h1>Our Value</h1>
+                    <p>We are always ready to provide the best service for you. We believe that finding your dream home is easier than you think and we strive to make sure we can make your life better</p>
+                </div>
+                <div class="accordian-list">
+                    <div class="accordian-item">
+                        <h2 class="accordian-title"><img class="value-icon" src="images/finance-1.svg">Best interest rates on the market<img src="images/down-arrow.svg"></h2>
+                        <div class="accordian-content">
+                            <p>Our team of mortgage experts can work with you to find the best interest rate for your unique situation. We offer a range of financing options and can help you choose the one that fits your needs and budget.</p>
+                        </div>
+                    </div>
+                    <div class="accordian-item">
+                        <h2 class="accordian-title"><img class="value-icon" src="images/finance-2.svg">Stable prices<img src="images/down-arrow.svg"></h2>
+                        <div class="accordian-content">
+                            <p>The price we provide for you is the best on the market. Our team researches the price and guarantees the best price despite any unexpected costs that may come</p>
+                        </div>
+                    </div>
+                    <div class="accordian-item">
+                        <h2 class="accordian-title"><img class="value-icon" src="images/finance-3.svg">Best prices on the market<img src="images/down-arrow.svg"></h2>
+                        <div class="accordian-content">
+                            <p>Why settle for anything less than the best? Choose our homes for the best prices on the market, and start living the life you've always dreamed of. Contact us today to learn more about our available properties and how we can help you find the home of your dreams.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="testimonial" class="testimonial">
+        <h1>What Our Clients Say About Us</h1>
+        <div class="testimonial-row">
+            <div class="testimonial-item">
+                <img class="headshot" src="images/headshot-1.png">
+                <div class="testimonial-content">
+                    <img class="quote-img" src="images/quote.png">
+                    <p>One of the best services there is. I was hesitant at first but they made the process very smooth and simple. I was able to find my dream home and now I love it. Huge thanks to Pinnacle for the outstanding services. I would recommend for anyone looking for there dream home</p>
+                    <div class="credentials">
+                        <h3>Jonathan Paul</h3>
+                        <p>Marketing VP</p>
+                     </div>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <img class="headshot" src="images/headshot-2.png">
+                <div class="testimonial-content">
+                    <img class="quote-img" src="images/quote.png">
+                    <p>Thanks to Pinnacle I was able to purchase my familys dream home. They assisted in everything and they made sure that I was satisfied. They went above and beyond and cant thank them enough</p>
+                    <div class="credentials">
+                        <h3>Derrick Matthews</h3>
+                        <p>Consultant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <img class="logo" src="images/pinnacle-logo.png" alt="pinnacle-logo">
+            <div class="footer-icons">
+                <img src="images/email-3.svg">
+                <img src="images/instagram-2.svg">
+                <img src="images/twitter.svg">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; All Right Reserved Pinnacle Realty</p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
